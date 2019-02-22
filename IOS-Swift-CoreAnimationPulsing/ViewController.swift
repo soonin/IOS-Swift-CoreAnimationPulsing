@@ -30,6 +30,9 @@ class ViewController: UIViewController {
         pulse.animationDuration = 0.8
         pulse.backgroundColor = UIColor.green.cgColor
         self.view.layer.insertSublayer(pulse, below: buttonView.layer)
+        
+        // TODO: Add Button action after pulse
+        print("Add Button action after pulse ")
     }
     
 }
